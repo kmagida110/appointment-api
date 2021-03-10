@@ -6,7 +6,7 @@ To launch the API locally run the following commands. This assumes that you have
 These commands should be run in the home directory and will run the API on port 5000. 
 
 - `docker build -t appointment-api . `
-- `docker `
+- `docker run --name appointment-api -p 5000:80 appointment-api `
 
 ## Using the API
 
